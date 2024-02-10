@@ -1,0 +1,22 @@
+{
+    "title":"Proyectos",
+    "projects":[
+        {
+            "logo":"img/tecmd-logo.jpeg",
+            "institute":"(SENA) Servicio Nacinal de Aprendizaje",
+            "shortDescription":"Gestión de aprendices en etapa productiva",
+            "largeDescription":"Los instructores han manifestado una dificultad a la hora de realizar reuniones, controles y revisiónes de la documeción necesaria. Por ello se realiza un sistema que regule los tiempo en que se pueden agendar reuniones, realizar busquedas facilitando encontrar toda la información necesaria en un solo lugar y una revisión de los documentos entregados en un tiempo determinado",
+            "duration":"Enero - Dic 2021",
+            "skills":["laravel", "php", "javascript", "html", "css", "mysql", "github"]
+        },
+        {
+            "logo":"img/tecmd-logo.jpeg",
+            "institute":"(SENA) Servicio Nacinal de Aprendizaje",
+            "shortDescription":"Sistema para un Conjunto Residencial",
+            "largeDescription":"Un conjunto residencial tiende a imprimir sus anuncios y sus recibos, además de contar con bitacoras sobre el ingreso de visitantes y de vehiculos. Se desarrolla una solución informatica para simplificar el registro de recibos, la difusión de anuncios, la gestión de los visitantes y los vehiculos además de una contabilidad sobre los espacios vacios, los reservados o que ya fueron ocupados.",
+            "duration":"Enero 2018 - Dic 2020",
+            "skills":["php", "mysql", "bootstrap", "html", "css"]
+        }
+    ] 
+}
+

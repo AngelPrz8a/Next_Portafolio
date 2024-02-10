@@ -1,0 +1,50 @@
+:root{
+    /*Text Size*/
+    --subtitle:25px;
+}
+
+/*SOBRE MI*/
+
+.about{
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.about-head{
+    max-width: 50%;
+}
+.about-tools{
+    max-width: 35%;
+}
+
+/*ESTUDIOS*/
+
+.study-card{
+    max-width: 400px;
+}
+
+
+/*CURSO*/
+
+.curse-card{
+    max-width:400px;
+}
+
+
+/*PROYECTO*/
+
+.project-card{
+    max-width: 400px;
+}
+
+.project-footer{
+    flex-direction: column;
+}
+
+.project-footer-head,
+.project-partners{
+    width: 100%;
+    align-items: center;
+}

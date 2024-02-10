@@ -1,0 +1,57 @@
+
+[
+    {
+        "id":6,
+        "logo":"img/platzi.jpg",
+        "institute":"Platzi",
+        "programName":"PHP BackEnd",
+        "duration":"Abril 2024 - Actualidad",
+        "skills":["laravel", "symfony", "livewire", "php", "tailwindcss", "mysql", "api", "postman", "git"],
+        "state":"En Desarrollo"
+    },
+    {
+        "id":5,
+        "logo":"img/google.png",
+        "institute":"Google",
+        "programName":"Análisis de Datos",
+        "duration":"Jul - Dic 2023",
+        "skills":["excel", "mysql", "r", "googleSheets", "googleCloud"],
+        "state":"Finalizado"
+    },
+    {
+        "id":4,
+        "logo":"img/distrital.png",
+        "institute":"Universidad Distrital Francisco José de Caldas",
+        "programName":"Desarrollo Fullstack - Nivel Intermedio",
+        "duration":"Enero - Septiembre 2023",
+        "skills":["javascript", "react", "angular", "mysql",  "excel", "googleCloud", "azure", "html", "css" ],
+        "state":"Finalizado"
+    },
+    {
+        "id":3,
+        "logo":"img/one.png",
+        "institute":"(ONE) Oracle Next Education",
+        "programName":"Back-end",
+        "duration":"Dic 2022 - May 2023",
+        "skills":["spring", "java", "api", "javascript","html", "css", "git"],
+        "state":"Finalizado"
+    },
+    {
+        "id":2,
+        "logo":"img/unal.jpeg",
+        "institute":"(UNAL) Universidad Nacional de Colombia",
+        "programName":"Habilidades en programación con énfasis en Aplicaciones Web",
+        "duration":"Enero - Dic 2022",
+        "skills":["spring", "java", "angular", "react", "javascript", "django", "flask", "python", "api", "html", "css", "postman", "git", "bitbucket"],
+        "state":"Finalizado"
+    },
+    {
+        "id":1,
+        "logo":"img/correlation.png",
+        "institute":"Correlation One",
+        "programName":"Fundamentos en Análitica de Datos",
+        "duration":"Dic 2022",
+        "skills":["excel", "python", "mysql"],
+        "state":"Finalizado"
+    }
+]

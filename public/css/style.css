@@ -1,0 +1,536 @@
+/*PHONE FIRST*/
+:root{
+    /*Colors*/
+    --background:#1C1C1C;
+    --background-nav:#141414;
+    --background-card:#D9D9D9;
+    --white:#ffff;
+    /*Text Size*/
+    --title:24px;
+    --subtitle:18px;
+    --normal:14px;
+    --small:12px;
+    --very-small:10px;
+    /*Circle Size*/
+    --circle-big:45px;
+    --circle-medium:32px;
+    --circle-small:28px;
+    /*Fonts*/
+    --serif:'Times New Roman', Times, serif;
+    --sans-serif:Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: var(--background);
+    font-size: 62.5%;
+    font-family: var(--sans-serif);
+    color: var(--white);
+}
+
+p{
+    font-size: var(--normal);
+}
+
+/*
+| HEADER NAV
+*/
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-title{
+    height: 65%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    padding-bottom: 4rem;
+}
+
+.header-contact{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+
+.name{
+    font-size: var(--title);
+    font-weight: normal;
+}
+
+.profession{
+    font-size: var(--normal);
+    font-weight:bold;
+    margin-top: 10px;
+}
+
+/*NAV*/
+
+nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: var(--background-nav);
+    border-top: 0.1px solid var(--background-card);
+    border-bottom: 0.1px solid var(--background-card);
+}
+
+.nav-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container li{
+    list-style-type: none;
+    font-size: var(--normal);
+}
+
+.nav-container li a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 10px;
+}
+
+.nav-container li a:hover{
+    border-bottom: 1px solid var(--background-card);
+}
+
+/*
+| MAIN SOBRE ESTUDIOS PROYECTOS
+*/
+
+/*MAIN*/
+
+main{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    width: 100%;
+}
+
+main section{
+    display: inline-block;
+    width: 100%;
+    padding:50px 15px;
+}
+
+hr{
+    width: 60%;
+    height: 1px;
+}
+
+.title{
+    display: flex;
+    font-size: var(--subtitle);
+    font-weight: bold;
+    margin-top: -10px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+/*////////////////////*/
+
+.prueba{
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-card);
+    color: black;
+    border-radius: 1.2rem;
+    padding: 2rem 1.5rem;
+    gap: 1rem;
+}
+
+
+/*////////////////////*/
+
+
+.img{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.border-white{
+    border: 1px solid var(--white);
+}
+
+.circle-small{
+    width: var(--circle-small);
+    height: var(--circle-small);
+    display: block;
+}
+
+.circle-medium{
+    width: var(--circle-medium);
+    height: var(--circle-medium);
+    display: block;
+}
+
+.circle-big{
+    width: var(--circle-big);
+    height: var(--circle-big);
+    display: block;
+}
+
+.fill-black{
+    fill: black;
+}
+
+.fill-white{
+    fill: white;
+}
+
+
+
+/*SOBRE*/
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.about-head{
+    text-align: center;
+}
+
+.about-tools{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/*ESTUDIOS*/
+
+.studies-container{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.studies-cards-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+    gap: 2rem;
+}
+
+.study-card{
+    max-width: 450px;
+}
+
+.study-header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.study-head{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.study-head .study-name{
+    width: 70%;
+    text-align: center;
+    line-height: 1.4rem;
+    font-weight: 700;
+}
+
+.study-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.study-body{
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+/*CURSOS*/
+
+.curses-cards-container{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.curse-card{
+    max-width: 450px;
+}
+
+.curse-head{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.curse-head p:nth-child(1){
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.curse-head .text{
+    line-height: 1.5rem;
+}
+
+.curse-head .curse-date{
+    font-size: var(--small);
+}
+
+.curse-body{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+/*ACTUALES O EN PROCESO*/
+
+.actual{
+    border: 2px solid gray;
+    box-shadow: -2px 2px 8px gray;
+}
+
+
+/*
+| PROYECTOS
+*/
+
+.projects-container{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: normal;
+    gap: 2rem;
+}
+
+.project-card{
+    gap: 2rem;
+}
+
+.project-head{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-title{
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.project-title .text p:nth-child(1){
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.project-title .text .date{
+    font-size: var(--small);
+}
+
+.project-links{
+    width:20%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.project-links a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
+.project-links .img{
+    padding: 0.5rem;
+}
+
+.project-body{
+    width: 100%;
+}
+
+.project-span{
+    display: inline-block;
+    align-self: flex-start;
+    text-align: left;
+    font-size: var(--small);
+    padding-bottom: 0.5rem;
+}
+
+.project-footer{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: left;
+}
+
+.project-tools-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.project-tools-container .project-tools{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.project-partners{
+    display: flex;
+    flex-flow: wrap column;
+    width: 100%;
+    text-align: left;
+}
+
+.partners-container{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.partner .img{
+    padding: 0.5rem;
+}
+
+
+/*
+| FOOTER
+*/
+
+footer{
+    display: inline-block;
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.footer-container{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-card {
+    width: 45%;
+    max-width: 300px;
+    background-color: var(--background-card);
+    border-radius: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.footer-card a{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.6rem;
+    color: black;
+    text-decoration: none;
+}
+
+
+.footer-card:hover{
+    transform: scale(1.1);
+    font-size: var(--title);
+}

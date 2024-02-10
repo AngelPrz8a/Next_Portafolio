@@ -1,0 +1,16 @@
+{
+    "about":[
+        {
+            "id":1,
+            "paragraph":"Mi formación es enfocada en el análisis, diseño y desarrollo de Sistemas de Información usando buenas practicas y buscando nuevos caminos para mejorar."
+        },
+        {
+            "id":2,
+            "paragraph":"Soy autónomo y apasionado en lo que hago, me comunico bien en equipo impulsando nuevas ideas y soluciones creativas, siempre dispuesto a aprender y enseñar."
+        },
+        {
+            "id":3,
+            "paragraph":"Busco retos que me desafíen y un grupo de personas que busquen superarse constantemente."
+        }
+    ]
+}
