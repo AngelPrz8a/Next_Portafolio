@@ -1,50 +1,53 @@
-:root{
-    /*Text Size*/
-    --subtitle:25px;
-}
+@media screen and (min-width: 900px) {
 
-/*SOBRE MI*/
+    :root{
+        /*Text Size*/
+        --subtitle:25px;
+    }
 
-.about{
-    display: flex;
-    flex-flow: wrap row;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-.about-head{
-    max-width: 50%;
-}
-.about-tools{
-    max-width: 35%;
-}
+    /*SOBRE MI*/
 
-/*ESTUDIOS*/
+    .about{
+        display: flex;
+        flex-flow: wrap row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .about-head{
+        max-width: 50%;
+    }
+    .about-tools{
+        max-width: 35%;
+    }
 
-.study-card{
-    max-width: 400px;
-}
+    /*ESTUDIOS*/
 
-
-/*CURSO*/
-
-.curse-card{
-    max-width:400px;
-}
+    .study-card{
+        max-width: 400px;
+    }
 
 
-/*PROYECTO*/
+    /*CURSO*/
 
-.project-card{
-    max-width: 400px;
-}
+    .curse-card{
+        max-width:400px;
+    }
 
-.project-footer{
-    flex-direction: column;
-}
 
-.project-footer-head,
-.project-partners{
-    width: 100%;
-    align-items: center;
+    /*PROYECTO*/
+
+    .project-card{
+        max-width: 400px;
+    }
+
+    .project-footer{
+        flex-direction: column;
+    }
+
+    .project-footer-head,
+    .project-partners{
+        width: 100%;
+        align-items: center;
+    }
 }
