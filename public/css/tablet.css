@@ -12,6 +12,10 @@
         padding-right: 40px;
     }
 
+    .card{
+        max-width:45%;
+    }
+
     /*Sobre mi*/
 
     .about-head{
@@ -25,8 +29,7 @@
     }
 
     .study-card{
-        justify-content: space-around;
-        max-width: 45%;
+        justify-content: space-evenly;
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -43,8 +46,8 @@
     }
 
     .curse-card{
-        max-width:45%;
         flex-direction: row;
+        gap:1rem;
     }
 
     .curse-head,

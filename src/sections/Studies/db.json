@@ -1,9 +1,9 @@
 [
     {
         "id":3,
-        "logo":"img/tecmd.jpeg",
+        "logo":"/img/tecmd.jpeg",
         "institute":"(TecMD) Politécnico Minuto de Dios",
-        "programName":"Seguridad informatica",
+        "programName":"Servicios de seguridad informática",
         "programTipe":"Técnico Profesional",
         "duration":"Ago 2023 - Actualidad",
         "skills":[],
@@ -11,7 +11,7 @@
     },
     {
         "id":2,
-        "logo":"img/sena.png",
+        "logo":"/img/sena.png",
         "institute":"(SENA) Servicio Nacinal de Aprendizaje",
         "programName":"Análisis y Desarrollo de Sistemas de información",
         "programTipe":"Tecnólogo",
@@ -21,7 +21,7 @@
     },
     {
         "id":1,
-        "logo":"img/sena.png",
+        "logo":"/img/sena.png",
         "institute":"(SENA) Servicio Nacinal de Aprendizaje",
         "programName":"Programación de software",
         "programTipe":"Técnico Profesional",

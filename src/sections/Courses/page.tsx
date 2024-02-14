@@ -1,6 +1,7 @@
 import Symbols from "app/components/Skills/page";
 import Main from "../Main/layout";
 import db from "./db.json";
+import Image from "next/image";
 
 const Courses =()=>{
     
@@ -14,12 +15,11 @@ const Courses =()=>{
                     <div key={element.id} className="curse-card card">
                         <div className="curse-head">
                             <div className="img">
-                                <img className="circle circle-big" src={element.logo} alt={element.institute} />
+                                <Image className="circle circle-big" width={45} height={45} title={element.institute} src={element.logo} alt={element.institute}/>
                             </div>
-                            <p>{element.institute}</p>
                             <div className="text">
                                 <p>{element.programName}</p>
-                                <p className="curse-date">{element.duration}</p>
+                                <p className="font-small">{element.duration}</p>
                             </div>
                         </div>
                         <div className="curse-body">

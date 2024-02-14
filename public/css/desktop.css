@@ -5,6 +5,10 @@
         --subtitle:25px;
     }
 
+    .card{
+        width: 30%;
+    }
+
     /*SOBRE MI*/
 
     .about{
@@ -19,19 +23,6 @@
     }
     .about-tools{
         max-width: 35%;
-    }
-
-    /*ESTUDIOS*/
-
-    .study-card{
-        max-width: 400px;
-    }
-
-
-    /*CURSO*/
-
-    .curse-card{
-        max-width:400px;
     }
 
 
